@@ -1,0 +1,419 @@
+$blue: #4285F4
+$green: #34A853
+$yellow: #FBBC05
+$red: #EA4335
+$white: #FFFFFF
+
+$font-quicksand: "Quicksand", sans-serif
+
+
+*
+    box-sizing: border-box
+
+body
+    margin: 0
+    padding: 0
+    font-family: $font-quicksand
+
+.container
+    max-width: 1200px
+    width: 100%
+    margin: 0 auto
+
+.full
+    width: 100%
+    background-color: #f2f2f2
+
+.full2
+    width: 100%
+    background-color: #edece9
+
+header
+    height: 100vh
+    background-image: url(../pic/google0.jpg)
+    background-size: cover
+
+nav    
+    width: 100%
+    padding: 0
+    margin: 0
+    height: 80px
+
+footer
+    padding: 20px
+    width: 100%   
+    text-align: center
+    margin: 0
+
+.logo
+    display: inline-block
+    height: 80px
+    line-height: 80px
+    margin: 0
+    padding: 10px
+    transform: scale(0.8)
+    filter: grayscale(0.5)
+    transition: 0.8s
+
+nav:hover>.logo
+    transform: scale(1)
+    filter: grayscale(0)
+    transition: 0.8s        
+
+.menu
+    display: inline-block
+    height: 80px
+    margin: 0
+    padding: 0    
+    float: right
+
+.link1, 
+.link2, 
+.link3, 
+.link4
+    a
+        text-decoration: none
+        color: black
+        transition: 0.8s
+
+
+.link1, 
+.link2, 
+.link3, 
+.link4
+    &:hover
+        a
+            text-decoration: none
+            color: white
+            transition: 0.8s
+
+
+.menu
+    ul
+        margin: 0
+        padding: 0    
+        width: 100%        
+
+    li
+        font-family: $font-quicksand
+        font-size: 1.2em
+        float: left
+        padding: 0 20px
+        line-height: 80px
+        list-style: none
+        height: 80px   
+        text-align: center
+        transition: 0.5s
+        font-weight: 800
+
+
+    .link1
+        &:hover
+            background-color: $blue
+            color: $white
+            transition: 0.5s
+
+        
+    .link2
+        &:hover
+            background-color: $green
+            color: $white
+            transition: 0.5s
+
+
+    .link3
+        &:hover
+            background-color: $yellow
+            color: $white
+            transition: 0.5s
+
+
+    .link4
+        &:hover
+            background-color: $red
+            color: $white
+            transition: 0.5s
+
+
+.slogan
+    width: 40%
+    background-color: rgba(255, 255, 255, 0.7)
+    margin-top: 20%
+    padding: 20px
+    float: right
+    border-radius: 10px 0px 0px 10px
+
+
+.text-slogan
+    h1
+        font-size: 5.2em
+        font-weight: bold
+        line-height: 1.3em        
+        margin: 0
+        padding: 0
+
+
+    h2
+        font-size: 3.2em
+        font-weight: bold
+        line-height: 1.3em  
+        margin: 0
+        padding-left: 30px
+
+
+.about
+    text-align: justify
+    padding: 30px
+
+
+    h1
+        font-size: 2em
+        font-weight: bold
+
+
+/*LOGO GOOGLE*/
+
+.g
+    color: $blue
+
+
+.o1
+    color: $red
+
+
+.o2
+    color: $yellow
+
+
+.l
+    color: $green
+
+
+.e
+    color: $red
+
+
+.gallery    
+    width: 100%
+    margin: 0 auto
+    padding: 50px 0
+    display: table
+    clear: both
+
+
+.photo
+    width: 30%
+    float: left
+    margin-right: 5%
+    padding: 0
+    display: block
+    overflow: hidden
+    transition: 0.5s
+    &:hover
+        box-shadow: 0 0 25px black
+        transition: 0.5s
+
+    &:last-of-type
+        margin-right: 0
+
+    img
+        width: 100%
+        transform: scale(1.5) rotate(5deg)
+        transition: 0.5s
+        &:hover
+            width: 100%
+            transform: scale(1.05) rotate(0deg)
+            transition: 0.5s
+
+
+.inpoland
+    text-align: justify
+    padding: 30px
+
+    h1
+        font-size: 2em
+        font-weight: bold
+
+
+.contact
+    margin: 0 auto
+    padding: 20px
+    text-align: center    
+
+
+.address
+    padding: 10px
+    padding-left: 100px
+    margin-right: 50px
+    display: table
+    float: left
+    width: 40%
+    
+
+/*---------- max 1199 ----------*/
+
+
+@media(min-width: 768px) and (max-width: 1199px) 
+
+    .logo
+        margin-left: 5%
+
+
+    .slogan
+        width: 45%
+        margin-top: 50vh
+    
+
+    .text-slogan
+        h1
+            font-size: 4.2em
+    
+        h2
+            font-size: 2.2em
+    
+
+    .gallery
+        width: 100%
+        margin: 0 auto
+        padding: 50px 25px
+        display: table
+        clear: both
+        vertical-align: middle
+    
+
+    .photo
+        width: 30%
+        float: left
+        padding: 0    
+        display: block
+        overflow: hidden
+        transition: 0.5s          
+    
+
+/*---------- max 767 ----------*/
+
+
+@media(max-width: 767px)
+
+
+    .logo
+        text-align: center
+        display: block
+        height: 80px   
+        margin: 0
+        padding: 10px
+        transform: scale(1)
+        filter: grayscale(0)
+    
+
+    .menu
+        display: block
+        margin: 0
+        padding: 0
+        float: none
+        position: absolute
+        width: 100%
+
+        ul
+            float: none                       
+            line-height: 40px
+            height: 40px
+    
+
+        li
+            float: none
+            font-size: 1.3em        
+            line-height: 40px
+            height: 40px
+    
+
+
+    .link1
+        box-shadow: 0px 5px 20px $blue        
+
+    .link2
+        box-shadow: 0px 5px 20px $green
+    
+
+    .link3
+        box-shadow: 0px 5px 20px $yellow
+        
+
+    .link4
+        box-shadow: 0px 5px 20px $red
+        
+
+    .gallery    
+        width: 100%
+        margin: 0 auto
+        padding: 50px 0
+        display: block
+        clear: both
+    
+
+    .photo
+        width: 90%
+        float: none
+        margin: 5% 5%
+        
+        img
+            width: 100%
+            transform: scale(1.05) rotate(0deg)
+            transition: 0.5s
+            &:hover
+                width: 100%
+                transform: scale(1.05) rotate(0deg)
+                transition: 0.5s
+    
+
+    p
+        font-size: 0.8em
+           
+
+    .contact
+        margin: 0 auto
+        padding: 0px
+        text-align: center
+    
+
+    .address
+        padding: 20px
+        padding-left: 0px
+        margin-right: 0px    
+        display: table
+        float: none
+        width: 100%
+        font-size: 2em
+    
+
+        h1
+            padding: 0
+            margin: 0
+    
+
+    iframe
+        width: 100%
+        padding: 0
+        margin: 0
+    
+
+    .slogan
+        width: 50%
+        margin-top: 30%
+    
+
+    .text-slogan 
+        h1
+            font-size: 2.2em
+    
+        h2
+            font-size: 1.2em   
+            padding-left: 10px
+    
+
+    header
+        margin-top: 160px
+        height: 100vh 
+        background-image: url(../pic/google0.jpg)
+        background-size: cover
+    
