@@ -78,6 +78,7 @@ nav:hover > .logo {
   margin: 0;
   padding: 0;
   width: 100%; }
+
 .menu li {
   font-family: "Quicksand", sans-serif;
   font-size: 1.2em;
@@ -89,18 +90,22 @@ nav:hover > .logo {
   text-align: center;
   transition: 0.5s;
   font-weight: 800; }
+
 .menu .link1:hover {
   background-color: #4285F4;
   color: #FFFFFF;
   transition: 0.5s; }
+
 .menu .link2:hover {
   background-color: #34A853;
   color: #FFFFFF;
   transition: 0.5s; }
+
 .menu .link3:hover {
   background-color: #FBBC05;
   color: #FFFFFF;
   transition: 0.5s; }
+
 .menu .link4:hover {
   background-color: #EA4335;
   color: #FFFFFF;
@@ -120,6 +125,7 @@ nav:hover > .logo {
   line-height: 1.3em;
   margin: 0;
   padding: 0; }
+
 .text-slogan h2 {
   font-size: 3.2em;
   font-weight: bold;
@@ -134,7 +140,7 @@ nav:hover > .logo {
     font-size: 2em;
     font-weight: bold; }
 
-/*LOGO GOOGLE */
+/*LOGO GOOGLE*/
 .g {
   color: #4285F4; }
 
@@ -199,20 +205,17 @@ nav:hover > .logo {
   float: left;
   width: 40%; }
 
-/*---------- max 1199 ---------- */
-@media(min-width: 768px) and (max-width: 1199px) {
+/*---------- max 1199 ----------*/
+@media (min-width: 768px) and (max-width: 1199px) {
   .logo {
     margin-left: 5%; }
-
   .slogan {
     width: 45%;
     margin-top: 50vh; }
-
   .text-slogan h1 {
     font-size: 4.2em; }
   .text-slogan h2 {
     font-size: 2.2em; }
-
   .gallery {
     width: 100%;
     margin: 0 auto;
@@ -220,7 +223,6 @@ nav:hover > .logo {
     display: table;
     clear: both;
     vertical-align: middle; }
-
   .photo {
     width: 30%;
     float: left;
@@ -228,8 +230,9 @@ nav:hover > .logo {
     display: block;
     overflow: hidden;
     transition: 0.5s; } }
-/*---------- max 767 ---------- */
-@media(max-width: 767px) {
+
+/*---------- max 767 ----------*/
+@media (max-width: 767px) {
   .logo {
     text-align: center;
     display: block;
@@ -238,7 +241,6 @@ nav:hover > .logo {
     padding: 10px;
     transform: scale(1);
     filter: grayscale(0); }
-
   .menu {
     display: block;
     margin: 0;
@@ -255,26 +257,20 @@ nav:hover > .logo {
       font-size: 1.3em;
       line-height: 40px;
       height: 40px; }
-
   .link1 {
     box-shadow: 0px 5px 20px #4285F4; }
-
   .link2 {
     box-shadow: 0px 5px 20px #34A853; }
-
   .link3 {
     box-shadow: 0px 5px 20px #FBBC05; }
-
   .link4 {
     box-shadow: 0px 5px 20px #EA4335; }
-
   .gallery {
     width: 100%;
     margin: 0 auto;
     padding: 50px 0;
     display: block;
     clear: both; }
-
   .photo {
     width: 90%;
     float: none;
@@ -287,15 +283,12 @@ nav:hover > .logo {
         width: 100%;
         transform: scale(1.05) rotate(0deg);
         transition: 0.5s; }
-
   p {
     font-size: 0.8em; }
-
   .contact {
     margin: 0 auto;
     padding: 0px;
     text-align: center; }
-
   .address {
     padding: 20px;
     padding-left: 0px;
@@ -307,26 +300,22 @@ nav:hover > .logo {
     .address h1 {
       padding: 0;
       margin: 0; }
-
   iframe {
     width: 100%;
     padding: 0;
     margin: 0; }
-
   .slogan {
     width: 50%;
     margin-top: 30%; }
-
   .text-slogan h1 {
     font-size: 2.2em; }
   .text-slogan h2 {
     font-size: 1.2em;
     padding-left: 10px; }
-
   header {
     margin-top: 160px;
     height: 100vh;
     background-image: url(../pic/google0.jpg);
     background-size: cover; } }
 
-/*# sourceMappingURL=stylex.css.map */
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+{
+  "name": "google-project",
+  "version": "1.0.0",
+  "description": "Projekt strony Google",
+  "main": "-Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-imageoptim": "^1.4.4",
+    "grunt-sass": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happyovh/google.git"
+  },
+  "keywords": [
+    "google",
+    "site",
+    "krakow"
+  ],
+  "author": "Stanisław Romek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happyovh/google/issues"
+  },
+  "homepage": "https://github.com/happyovh/google#readme"
+}
